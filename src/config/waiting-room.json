@@ -1,0 +1,95 @@
+{
+  "colors": {
+    "background": "#0b0018",
+    "gridStroke": "#4b00b7",
+    "gridGlow": "#8a2be2",
+    "sunMain": "#ff6b6b",
+    "sunAlt": "#ffd166",
+    "mountain": "#1b0036",
+    "text": "#ff62d2",
+    "textGlow": "#7a1aa9"
+  },
+  "layout": {
+    "horizonYOffsetRatio": -0.12,
+    "bottomYRatio": 0.5,
+    "titleYOffsetRatio": 0.22,
+    "vanishingXRatio": 0.0
+  },
+  "grid": {
+    "verticalCount": 12,
+    "horizontalCount": 36,
+    "railBottomWidthFactor": 0.75,
+    "verticalLineWidth": 2,
+    "hWidthMin": 0.15,
+    "hWidthMaxExtra": 0.85,
+    "lineBaseWidth": 2,
+    "lineGrowWidth": 2,
+    "lineWidthGrowthPower": 1.5,
+    "flowDuration": 2.2,
+    "glowAltFrequency": 0.5,
+    "perspectiveExponent": 2
+  },
+  "suns": {
+    "big": {
+      "radiusRatio": 0.16,
+      "positionXRatio": -0.22,
+      "positionYRatio": -0.28,
+      "stripeGap": 16,
+      "stripeThickness": 8,
+      "pulseScale": 1.03,
+      "pulseDuration": 2.4
+    },
+    "small": {
+      "radiusRatio": 0.1,
+      "positionXRatio": 0.24,
+      "positionYRatio": -0.3,
+      "stripeGap": 14,
+      "stripeThickness": 7,
+      "pulseScale": 1.04,
+      "pulseDuration": 2.4
+    }
+  },
+  "mountains": {
+    "baseYOffsetRatio": 0.09,
+    "ridge": [
+      [-0.5, 0.0],
+      [-0.4, 0.0],
+      [-0.46, -0.1],
+      [-0.35, 0.0],
+      [-0.22, 0.0],
+      [-0.28, -0.17],
+      [-0.14, 0.0],
+      [-0.02, -0.12],
+      [0.08, 0.0],
+      [0.18, -0.1],
+      [0.28, 0.0],
+      [0.4, -0.07],
+      [0.5, 0.0]
+    ]
+  },
+  "title": {
+    "text": "Be Right Back",
+    "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto",
+    "fontSizeRatio": 0.09,
+    "glow": {
+      "fontSizeRatio": 0.098,
+      "opacity": 0.28,
+      "scale": 1.04
+    },
+    "flicker": {
+      "opacityMin": 0.85,
+      "opacityDown": 0.08,
+      "opacityUp": 0.22,
+      "glitchX1": 8,
+      "glitchX2": -5,
+      "glitchStep": 0.04,
+      "scaleUp": 1.01,
+      "scaleUpDuration": 0.06,
+      "scaleDownDuration": 0.1
+    }
+  },
+  "loop": {
+    "ticks": 600
+  }
+}
+
