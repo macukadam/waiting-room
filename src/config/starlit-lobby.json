@@ -1,0 +1,122 @@
+{
+  "colors": {
+    "background": "#050813",
+    "gridStroke": "#1b6cf0",
+    "gridGlow": "#64a7ff",
+    "city": "#0d1a2b",
+    "text": "#a2f2ff",
+    "textGlow": "#62c0ff"
+  },
+  "layout": {
+    "horizonYOffsetRatio": -0.1,
+    "bottomYRatio": 0.5,
+    "titleYOffsetRatio": 0.22,
+    "vanishingXRatio": 0.0
+  },
+  "grid": {
+    "verticalCount": 12,
+    "horizontalCount": 36,
+    "railBottomWidthFactor": 0.75,
+    "verticalLineWidth": 2,
+    "hWidthMin": 0.15,
+    "hWidthMaxExtra": 0.85,
+    "lineBaseWidth": 2,
+    "lineGrowWidth": 2,
+    "lineWidthGrowthPower": 1.5,
+    "flowDuration": 2.2,
+    "glowAltFrequency": 0.6,
+    "perspectiveExponent": 2
+  },
+  "stars": {
+    "count": 140,
+    "color": "#cfe9ff",
+    "minRadius": 0.8,
+    "maxRadius": 2.2,
+    "twinkle": true,
+    "minOpacity": 0.3,
+    "maxOpacity": 0.95,
+    "minTwinkleDuration": 0.6,
+    "maxTwinkleDuration": 1.6,
+    "flicker": {
+      "enabled": true,
+      "probability": 0.08,
+      "burstOpacity": 1.0,
+      "scaleUp": 1.5,
+      "minIn": 0.02,
+      "maxIn": 0.08,
+      "minOut": 0.08,
+      "maxOut": 0.16
+    }
+  },
+  "meteor": {
+    "enabled": true,
+    "color": "#cfe9ff",
+    "headRadius": 3.5,
+    "trailCount": 6,
+    "trailSpacing": 12,
+    "trailOpacityDecay": 0.14,
+    "angleDeg": 0,
+    "speed": 600,
+    "minDelay": 2.5,
+    "maxDelay": 6.0,
+    "startXRatioMin": -0.55,
+    "startXRatioMax": -0.10,
+    "startYRatioMin": -0.45,
+    "startYRatioMax": -0.15,
+    "horizontal": true
+    , "randomDirections": true,
+    "skyMargin": 24,
+    "driftYMax": 40
+  },
+  "city": {
+    "baseYOffsetRatio": 0.06,
+    "ridge": [
+      [-0.50, 0.00],
+      [-0.45, -0.08],
+      [-0.40, -0.04],
+      [-0.36, -0.14],
+      [-0.32, -0.05],
+      [-0.28, -0.11],
+      [-0.23, -0.06],
+      [-0.18, -0.16],
+      [-0.12, -0.07],
+      [-0.08, -0.12],
+      [-0.04, -0.05],
+      [0.00, -0.15],
+      [0.04, -0.03],
+      [0.08, -0.11],
+      [0.12, -0.07],
+      [0.17, -0.12],
+      [0.22, -0.06],
+      [0.28, -0.10],
+      [0.34, -0.05],
+      [0.40, -0.13],
+      [0.46, -0.06],
+      [0.50, 0.00]
+    ]
+  },
+  "title": {
+    "text": "Starlit Lobby",
+    "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto",
+    "fontSizeRatio": 0.09,
+    "glow": {
+      "fontSizeRatio": 0.098,
+      "opacity": 0.26,
+      "scale": 1.04
+    },
+    "flicker": {
+      "opacityMin": 0.85,
+      "opacityDown": 0.08,
+      "opacityUp": 0.22,
+      "glitchX1": 6,
+      "glitchX2": -4,
+      "glitchStep": 0.05,
+      "scaleUp": 1.01,
+      "scaleUpDuration": 0.06,
+      "scaleDownDuration": 0.1
+    }
+  },
+  "loop": {
+    "ticks": 600
+  }
+}
