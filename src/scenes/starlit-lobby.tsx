@@ -21,7 +21,7 @@ export default makeScene2D(function* (view) {
 
   // Background
   view.add(
-    <Rect width={width} height={height} fill={bg} position={[0, 0]} />, 
+    <Rect width={width} height={height} fill={bg} position={[0, 0]} />,
   );
 
   // Star field in the sky

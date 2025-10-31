@@ -1,0 +1,96 @@
+{
+  "colors": {
+    "background": "#07040d",
+    "gridStroke": "#2a2350",
+    "gridGlow": "#6e57c8",
+    "mountain": "#0b0715",
+    "text": "#d6b3ff",
+    "textGlow": "#a47dff",
+    "deadCore": "#0c0012",
+    "deadHalo": "#7c3aed",
+    "deadRing": "#b794f4",
+    "deadCracks": "#ff6b9b"
+  },
+  "layout": {
+    "horizonYOffsetRatio": -0.1,
+    "bottomYRatio": 0.5,
+    "titleYOffsetRatio": 0.22,
+    "vanishingXRatio": 0.0
+  },
+  "grid": {
+    "verticalCount": 12,
+    "horizontalCount": 36,
+    "railBottomWidthFactor": 0.75,
+    "verticalLineWidth": 2,
+    "hWidthMin": 0.15,
+    "hWidthMaxExtra": 0.85,
+    "lineBaseWidth": 2,
+    "lineGrowWidth": 2,
+    "lineWidthGrowthPower": 1.5,
+    "flowDuration": 2.4,
+    "glowAltFrequency": 0.45,
+    "perspectiveExponent": 2
+  },
+  "deadStar": {
+    "radiusRatio": 0.18,
+    "positionXRatio": 0.0,
+    "positionYRatio": -0.28,
+    "haloLayers": 3,
+    "haloScaleMin": 1.05,
+    "haloScaleMax": 1.22,
+    "haloPulseDuration": 3.6,
+    "haloOpacity": 0.22,
+    "crackCount": 8,
+    "crackWidth": 3,
+    "crackFlickerMin": 0.4,
+    "crackFlickerMax": 1.2,
+    "ringRadiusFactor": 1.35,
+    "ringParticleCount": 56,
+    "ringParticleMin": 1.0,
+    "ringParticleMax": 2.0,
+    "ringRotationSeconds": 36,
+    "ringTiltDeg": 18,
+    "ringOpacity": 0.65,
+    "embers": {
+      "enabled": true,
+      "minDelay": 4.0,
+      "maxDelay": 10.0,
+      "maxRadiusFactor": 0.18,
+      "fadeSeconds": 0.8
+    }
+  },
+  "mountains": {
+    "baseYOffsetRatio": 0.08,
+    "ridge": [
+      [-0.50, 0.00], [-0.45, -0.10], [-0.40, -0.03], [-0.36, -0.16],
+      [-0.32, -0.05], [-0.28, -0.13], [-0.22, -0.06], [-0.18, -0.18],
+      [-0.12, -0.07], [-0.08, -0.14], [-0.03, -0.05], [0.00, -0.16],
+      [0.04, -0.03], [0.08, -0.13], [0.12, -0.07], [0.18, -0.12],
+      [0.24, -0.05], [0.30, -0.11], [0.36, -0.06], [0.43, -0.12],
+      [0.48, -0.05], [0.50, 0.00]
+    ]
+  },
+  "title": {
+    "text": "Thanks For Watching!",
+    "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto",
+    "fontSizeRatio": 0.09,
+    "glow": {
+      "fontSizeRatio": 0.098,
+      "opacity": 0.24,
+      "scale": 1.04
+    },
+    "flicker": {
+      "opacityMin": 0.85,
+      "opacityDown": 0.08,
+      "opacityUp": 0.22,
+      "glitchX1": 6,
+      "glitchX2": -4,
+      "glitchStep": 0.05,
+      "scaleUp": 1.01,
+      "scaleUpDuration": 0.06,
+      "scaleDownDuration": 0.1
+    }
+  },
+  "loop": { "ticks": 600 }
+}
+
